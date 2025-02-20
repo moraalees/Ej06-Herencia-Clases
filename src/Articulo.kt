@@ -8,7 +8,7 @@ open class Articulo(var nombre: String, var precio: Double) {
 
     fun generarID(totalArticulos: Int): Int{
         id = totalArticulos + 1
-        println("ID actualizado.")
+        println("ID actualizado ($id).")
         return totalArticulos + 1
     }
 
